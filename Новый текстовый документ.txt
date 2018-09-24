@@ -1,4 +1,4 @@
-https://www.templatemonster.com/ru/demo/51688.html
+﻿https://www.templatemonster.com/ru/demo/51688.html
 
 
 https://www.templatemonster.com/ru/free-templates/free-education-website-template.php
@@ -34,6 +34,12 @@ https://www.templatemonster.com/ru/free-templates/free-education-website-templat
 	музеи
 	памятники
 	фестивали
+
+https://fonts.google.com/?category=Handwriting&subset=cyrillic
+
+http://www.internet-technologies.ru/articles/20-poleznyh-snippetov-css-dlya-sozdaniya-adaptivnogo-menyu.html
+
+https://codepen.io/jurbank/pen/veGnb
 
 
 

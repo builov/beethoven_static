@@ -3,3 +3,58 @@
 nav {
 	 font-family: 'Amatic SC', cursive;
 }
+.antique {background-image:url('../images/corner_l_t.gif');  background-position:left top;  background-repeat:no-repeat;margin-bottom:20px;margin-top:20px;}
+.antique>div {background-image:url('../images/corner_r_b.gif');  background-position:right bottom;  background-repeat:no-repeat;}
+.antique>div>div {background-image:url('../images/corner_r_t.gif');  background-position:right top;  background-repeat:no-repeat;}
+.antique>div>div>div {background-image:url('../images/corner_l_b.gif');  background-position:left bottom;  background-repeat:no-repeat;}
+.antique>div>div>div>div {}
+.antique>div>div>div>div>div {padding:20px 30px 5px 30px;}
+
+
+/*  стили для картинок в вики  */
+div.tleft {
+    margin: 0.2em 1.4em 1.3em 0;
+    clear: left;
+    float: left;
+}
+div.tright {
+    margin: 0.2em 0 1.3em 1.4em;
+    clear:right;
+    float:right;
+}
+div.thumb {
+    background-color: transparent;
+    margin-bottom: 0.5em;
+    width: auto;
+}
+div.thumbinner {
+    font-size: 94%;
+    overflow: hidden;
+    padding: 3px !important;
+    text-align: center;
+}
+.thumbinner {
+    min-width: 100px;
+}
+.thumbcaption {
+    border: medium none;
+    font-size: 94%;
+    line-height: 1.4em;
+    padding:3px 1px !important;
+    text-align: left;
+	/*font-family: Arial,sans-serif;*/
+}
+.thumbcaption p {
+    display:inline;
+}
+div.magnify {
+    background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+    float: right;
+}
+div.magnify a, div.magnify img {
+    background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+    display: block;
+}
+/*  END OF стили для картинок в вики  */

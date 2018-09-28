@@ -58,7 +58,7 @@ nav {
 }
 
 .sf-menu>li.sfHover>a, .sf-menu>li.current>a, .sf-menu>li>a:hover {
-	color: #383636;
+	/*color: #383636;*/
 	text-decoration: underline;
 }
  
@@ -83,7 +83,8 @@ nav {
 	width: 5px;
 	left: 50%;
 	margin-left: -3px;
-	bottom: 15px;
+	/*bottom: 15px;*/
+	bottom: -10px;
 	color: #fff;
 	pointer-events: none;
 	z-index: 999;
@@ -99,11 +100,15 @@ nav {
 .sf-menu>li ul {
 	left: 0;
 	z-index: 999; 
-	width: 100%;
+	/*width: 100%;*/
 	background-color: #343434;
 	top: 55px;
 	padding-bottom: 1px;
 	background: #1f1714 url(../images/sub_bg.png) 0 0 repeat-x;
+	
+	white-space:nowrap;
+	padding:10px 0;
+	width:auto;
 }
 
 
@@ -118,8 +123,8 @@ nav {
 
 .sf-menu li ul li a{
 	position: static;
-	font-size: 11px;
-	line-height: 30px;
+	/*font-size: 11px;
+	line-height: 30px;*/
 	padding: 5px 20px 3px;
 	display: block;
 	z-index: 999;
